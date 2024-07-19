@@ -1,0 +1,90 @@
+/* Famerinformation.css */
+
+.famer-table-container {
+    max-width: 8000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-farmer {
+    display: block;
+    width: 90px;
+    margin: 0px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-famer:hover {
+    background-color: #218838;
+  }
+  
+  .famer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .famer-table th, .famer-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .famer-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .famer-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .famer-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .small-col {
+    width: 50px;
+  }
+  
+  .famer-table button {
+    margin: 0 5px;
+    width: 80px;
+    padding: 5px 10px;
+    background-color: #118e36;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .famer-table button:hover {
+    background-color: #0056b3;
+  }
+  
+  .famer-table button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .famer-table button:nth-child(2):hover {
+    background-color: #c82333;
+  }
+  
